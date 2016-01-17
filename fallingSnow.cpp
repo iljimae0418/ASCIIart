@@ -41,9 +41,8 @@ void pause(int n){
 
 int main(){
 	for (int i = 0; i < 8; i++){
-		pause(450); 
+		pause(800); 
 		snow(); 
-		pause(500); 
 	}
 	pause(100); 
 	printVillage();
